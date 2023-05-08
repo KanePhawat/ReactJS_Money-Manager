@@ -1,0 +1,71 @@
+p{
+    margin: 0;
+}
+
+.container{
+    background: #40456D;
+    border-radius: 15px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.box1{
+    padding: 15px 20px;
+}
+
+.box2{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+}
+
+.reportBalance{
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 6px;
+}
+
+
+.reportBalance .header{
+    color: #FFFFFF;
+    font-size: 12px;
+    padding: 0px;
+    margin-bottom: 2px;
+    font-weight:300;
+}
+
+.reportIncome{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 6px;
+}
+
+
+.reportIncome .header{
+    color: #FFFFFF;
+    font-size: 12px;
+    padding: 0px;
+    margin-bottom: 2px;
+    font-weight:300;
+}
+
+.reportExpense{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 6px;
+}
+
+
+.reportExpense .header{
+    color: #FFFFFF;
+    font-size: 12px;
+    padding: 0px;
+    margin-bottom: 2px;
+    font-weight:300;
+}

@@ -1,0 +1,63 @@
+.list-item{
+    text-align: center;
+    list-style: none;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.list-item li{
+    padding: 8px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-family: 'Kanit',sans-serif;
+    font-weight: 400;
+    margin-top: 15px 0 ;
+    margin-bottom: 10px;
+    width: 100%;
+    position: relative;
+}
+
+.Expense{
+    background: #FFD9D9;
+    color: #CC4545; 
+}
+
+.Income{
+    background: #CCE0FF;
+    color: #0066FF; 
+}
+/* 
+.bin{
+    background-color: #61616192;
+    border-radius: 8px;
+    width: 43px;
+    height: 43px;
+    padding: 6px;
+    cursor: pointer;
+} */
+span{
+    font-family: 'Kanit',sans-serif;
+}
+
+.bin {
+    border-radius: 8px;
+    width: 43px;
+    height: 43px;
+    padding: 6px;
+    cursor: pointer;
+    border: 0;
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translate(0%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .list-item li:hover .bin{
+    opacity: 1;
+  }
